@@ -1,0 +1,7 @@
+while (cin >> x){
+//code
+}
+This helps iterate through the inputs until it finishes. 
+
+typedef long long ll; //helps shorten code
+typedef vector <int> vi; //also helps sorten code
