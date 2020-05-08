@@ -23,7 +23,7 @@ s.erase(s.find(5)); //removes 1 instance of a 5 in the set
 #### Map Structures:
 A map is a generalized array that consits of key-valued-pairs
 map <string, int> m; //The keys are strings and the values are integers
-\m["monkey"] = 4;
+\m["monkey"] = 4; 
 If the value of a key is requested but the map does not contain it, the key is automatically added to the map with a default value.
 
 ```
