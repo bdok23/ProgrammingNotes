@@ -1,11 +1,11 @@
 #### Dynamic Arrays
 An array whose size can be changed during the execution of a program
 
-v.back()     `last element of a vector`
+`v.back()` last element of a vector
 
 vector \<int> v(10, 5); `size 10, initial value is 5 for each element of vector v`
 
-#### Set Structures:
+#### Set Structures
 set \<int> s;
   
 s.insert(3); `adds s to the set`
@@ -28,7 +28,7 @@ s.erase(5); `removes all instances of a 5 in the set`
 
 s.erase(s.find(5)); `removes 1 instance of a 5 in the set`
 
-#### Map Structures:
+#### Map Structures
 A map is a generalized array that consits of key-valued-pairs
 
 map <string, int> m; `The keys are strings and the values are integers`
@@ -51,8 +51,12 @@ for (auto x : m) {
 }
 ```
 
-So
+#### Iterators and Ranges
+random_shuffle(v.begin(), v.end()); `Randomly shuffles the vector`
 
+Same thing works for arrays if you do sort(a, a+n)...
+
+set <int>::iterator it = s.begin(); `Creates an iterator it that points to smalles
 
 
 
