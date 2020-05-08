@@ -1,0 +1,15 @@
+sort(v.begin(), v.end()); //sort a vector/string
+sort(v.rbegin(), v.rend()); //sort in reverse
+sort(a, a+n); //sort array
+tuple <int, int, int> //another datatype
+
+User Defined Structs:
+struct P{
+  int x, y;
+  bool operator <(const P &p){
+    if(x! = p.x) return x < p.x;
+    else return y < p.y;
+    }
+    };
+sort(v.begin(), v.end(), comp); //where comp is user defined sort function
+We can use binary search to see when a function changes.
