@@ -3,10 +3,10 @@ An array whose size can be changed during the execution of a program
 
 `v.back();` Last element of a vector
 
-`vector \<int> v(10, 5);` size 10, initial value is 5 for each element of vector v
+`vector <int> v(10, 5);` size 10, initial value is 5 for each element of vector v
 
 #### Set Structures
-`set \<int> s;`
+`set <int> s;`
   
 `s.insert(3);` adds s to the set
 
@@ -22,7 +22,7 @@ for(auto x:s){
 ```
 Every element is distinct in a set s.
 
-`multiset \<int> s;` allows multiple instances of an element
+`multiset <int> s;` allows multiple instances of an element
   
 `s.erase(5);` removes all instances of a 5 in the set
 
