@@ -1,12 +1,12 @@
 #### Dynamic Arrays
 An array whose size can be changed during the execution of a program
 
-v.back() `//last element of a vector`
+v.back() `~//last element of a vector`
 
-vector <int> v(10, 5); `//size 10, initial value is 5 for each element of vector v`
+vector \<int> v(10, 5); `//size 10, initial value is 5 for each element of vector v`
 
 #### Set Structures:
-set <int> s;
+set \<int> s;
   
 s.insert(3); `//adds s to the set`
 
