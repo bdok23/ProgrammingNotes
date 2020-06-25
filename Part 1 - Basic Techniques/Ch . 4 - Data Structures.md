@@ -1,11 +1,13 @@
 #### Dynamic Arrays
-An array whose size can be changed during the execution of a program
+Def: An array whose size can be changed during the execution of a program
 
 `v.back();` Last element of a vector
 
 `vector <int> v(10, 5);` size 10, initial value is 5 for each element of vector v
 
 #### Set Structures
+Def: A set is a data structure that maintains a collection of elements. 
+
 `set <int> s;`
   
 `s.insert(3);` adds s to the set
@@ -29,7 +31,7 @@ Every element is distinct in a set s.
 `s.erase(s.find(5));` removes 1 instance of a 5 in the set
 
 #### Map Structures
-A map is a generalized array that consits of key-valued-pairs
+Def: A map is a generalized array that consits of key-valued-pairs
 
 `map <string, int> m;` The keys are strings and the values are integers
 
@@ -52,6 +54,8 @@ for (auto x : m) {
 ```
 
 #### Iterators and Ranges
+Def: An iterator is a variable that points to an element in a data structure. 
+
 `random_shuffle(v.begin(), v.end());` Randomly shuffles the vector
 
 Same thing works for arrays if you do sort(a, a+n)...
@@ -59,6 +63,8 @@ Same thing works for arrays if you do sort(a, a+n)...
 `set <int>::iterator it = s.begin();` Creates an iterator it that points to smallest element in the set
 
 `auto it = s.begin();` also works
+
+#### Bitset
 
 
 
