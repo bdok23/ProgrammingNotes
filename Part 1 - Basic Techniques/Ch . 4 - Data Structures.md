@@ -65,9 +65,16 @@ Same thing works for arrays if you do sort(a, a+n)...
 `auto it = s.begin();` also works
 
 #### Bitset
+Def: A bitset is an array whose each value is either 0 or 1. 
 
+`bitset <10> s;` Creates a bitset with 10 elements. 
 
+`s.count();` Returns the number of 1's in the bitset.
 
+#### Deque
+Def: A deque is a dynammic array whose size can be efficiently changed at both ends of the array. 
+
+#### Stack
 
 
 
